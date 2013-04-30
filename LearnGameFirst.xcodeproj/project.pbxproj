@@ -23,6 +23,8 @@
 		E0085E60172567DB005E3703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0085E3B172567DB005E3703 /* Foundation.framework */; };
 		E0085E68172567DB005E3703 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0085E66172567DB005E3703 /* InfoPlist.strings */; };
 		E0085E6B172567DB005E3703 /* LearnGameFirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0085E6A172567DB005E3703 /* LearnGameFirstTests.m */; };
+		E0B43634172FDCF800243975 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0B43632172FDCF800243975 /* AboutViewController.m */; };
+		E0B43635172FDCF800243975 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0B43633172FDCF800243975 /* AboutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		E0085E67172567DB005E3703 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E0085E69172567DB005E3703 /* LearnGameFirstTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnGameFirstTests.h; sourceTree = "<group>"; };
 		E0085E6A172567DB005E3703 /* LearnGameFirstTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGameFirstTests.m; sourceTree = "<group>"; };
+		E0B43631172FDCF800243975 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E0B43632172FDCF800243975 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E0B43633172FDCF800243975 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,9 @@
 				E0085E51172567DB005E3703 /* MainStoryboard.storyboard */,
 				E0085E54172567DB005E3703 /* ViewController.h */,
 				E0085E55172567DB005E3703 /* ViewController.m */,
+				E0B43631172FDCF800243975 /* AboutViewController.h */,
+				E0B43632172FDCF800243975 /* AboutViewController.m */,
+				E0B43633172FDCF800243975 /* AboutViewController.xib */,
 				E0085E40172567DB005E3703 /* Supporting Files */,
 			);
 			path = LearnGameFirst;
@@ -236,6 +244,7 @@
 				E0085E4E172567DB005E3703 /* Default@2x.png in Resources */,
 				E0085E50172567DB005E3703 /* Default-568h@2x.png in Resources */,
 				E0085E53172567DB005E3703 /* MainStoryboard.storyboard in Resources */,
+				E0B43635172FDCF800243975 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 				E0085E46172567DB005E3703 /* main.m in Sources */,
 				E0085E4A172567DB005E3703 /* AppDelegate.m in Sources */,
 				E0085E56172567DB005E3703 /* ViewController.m in Sources */,
+				E0B43634172FDCF800243975 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnGameFirst/LearnGameFirst-Prefix.pch";
 				INFOPLIST_FILE = "LearnGameFirst/LearnGameFirst-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnGameFirst/LearnGameFirst-Prefix.pch";
 				INFOPLIST_FILE = "LearnGameFirst/LearnGameFirst-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -446,6 +458,7 @@
 				E0085E70172567DB005E3703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0085E71172567DB005E3703 /* Build configuration list for PBXNativeTarget "LearnGameFirstTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +467,7 @@
 				E0085E73172567DB005E3703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
